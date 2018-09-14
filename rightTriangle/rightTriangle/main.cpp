@@ -3,8 +3,18 @@
 //date: 9/12/2018
 #include <iostream>
 #include <string>
+#include "triangles.h"
 using namespace std;
 
+int rightTriangle()
+{
+
+}
+
+int rightTriangleCalculator()
+{
+
+}
 
 int main()
 {
@@ -17,18 +27,25 @@ int main()
 	do {
 		if (chooseTrinagle == 1)
 		{
-			rightTriangle()
+			rightTriangle();
 		}
 		else if (chooseTriangle == 2)
 		{
-			isoceles()
+			isoceles();
 		}
 		else if (chooseTriangle == 3)
 		{
-			equalateral()
+			equalateral();
 		}
 		else if (chooseTriangle == 4)
-	}while(chooseTriangle != 4)
+		{
+			cout << "The calc boy can weight" endl;
+		}
+
+	} while (chooseTriangle != 4);
+
 	system("pause");
 	return 0;
 }
+// pow(pow(c, 2) - pow(b -2), 0.5)
+//include <math.h>

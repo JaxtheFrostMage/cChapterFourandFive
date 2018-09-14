@@ -115,7 +115,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Source.cpp" />
+    <ClCompile Include="equalateralTriangle.cpp" />
+    <ClCompile Include="isocelesTriangle.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="rightTriangle.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="triangles.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
