@@ -6,28 +6,22 @@
 #include "triangles.h"
 using namespace std;
 
-int rightTriangle()
-{
-
-}
-
-int rightTriangleCalculator()
-{
-
-}
 
 int main()
 {
 	int chooseTriangle = 4;
-	
-	cout << "Welcome to the Triangle calculator." << endl;
-	cout << "what type of ntriangle are you solving for?\n 2 = Right \n isoceles \n 3 = Equilateral \n 4 = Exit";
+	double sidea;
+	double sideb;
+	double sidec;
+
+	cout << "welcome to the triangle calculator." << endl;
+	cout << "what type of ntriangle are you solving for?\n 2 = right \n isoceles \n 3 = equilateral \n 4 = exit";
 	cin >> chooseTriangle;
 
 	do {
-		if (chooseTrinagle == 1)
+		if (chooseTriangle == 1)
 		{
-			rightTriangle();
+			right();
 		}
 		else if (chooseTriangle == 2)
 		{
@@ -39,7 +33,7 @@ int main()
 		}
 		else if (chooseTriangle == 4)
 		{
-			cout << "The calc boy can weight" endl;
+			cout << "The calc boy can weight" << endl;
 		}
 
 	} while (chooseTriangle != 4);

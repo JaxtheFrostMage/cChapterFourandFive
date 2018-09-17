@@ -119,6 +119,7 @@
     <ClCompile Include="isocelesTriangle.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="rightTriangle.cpp" />
+    <ClCompile Include="randomMath.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="triangles.h" />
