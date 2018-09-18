@@ -9,13 +9,10 @@ using namespace std;
 
 int main()
 {
-	int chooseTriangle = 4;
-	double sidea;
-	double sideb;
-	double sidec;
+	double chooseTriangle;
 
 	cout << "welcome to the triangle calculator." << endl;
-	cout << "what type of ntriangle are you solving for?\n 2 = right \n isoceles \n 3 = equilateral \n 4 = exit";
+	cout << "what type of ntriangle are you solving for?\n 1 = right \n 2 = isoceles \n 3 = equilateral \n 4 = exit" << endl;
 	cin >> chooseTriangle;
 
 	do {
@@ -35,11 +32,14 @@ int main()
 		{
 			cout << "The calc boy can weight" << endl;
 		}
+		else
+		{
+			cout << "that is not valid...";
+		}
 
 	} while (chooseTriangle != 4);
 
 	system("pause");
 	return 0;
 }
-// pow(pow(c, 2) - pow(b -2), 0.5)
-//include <math.h>
+

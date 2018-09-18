@@ -6,4 +6,5 @@ using namespace std;
 int isoceles()
 {
 
+	return 0;
 }

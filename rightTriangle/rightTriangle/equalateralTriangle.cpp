@@ -6,4 +6,5 @@ using namespace std;
 int equalateral()
 {
 
+	return 0;
 }
