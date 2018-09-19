@@ -6,7 +6,11 @@
 int right();
 int isoceles();
 int equalateral();
-int perimeter();
-int pythagoreanAB();
-int pythagoreanC();
+double perimeter();
+double pythagoreanAB();
+double pythagoreanC();
+double idiot();
+double perimeterEqu();
+double pythagoreanIso();
+double perimeterIso();
 #endif
