@@ -32,11 +32,13 @@ int main()
 		{
 			cout << "The calc boy can weight" << endl;
 		}
-		
+		else
+		{
+			cout << "that is not valid..." << endl;
+		}
+
 	} while (chooseTriangle != 4);
-	{
-		cout << "that is not valid..." << endl;
-	}
+
 
 	system("pause");
 	return 0;

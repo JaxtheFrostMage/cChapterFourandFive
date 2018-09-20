@@ -90,5 +90,3 @@ double pythagoreanIso()
 			return perimeterIsoceles;
 		}
 
-// pow(pow(c, 2) - pow(b -2), 0.5)
-//include <math.h>
